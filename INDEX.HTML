@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sczshikshalayam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+
+        .hero h1 {
+            margin: 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .banner {
+            background-color: #ffcc00;
+            text-align: center;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sunshine High School</h1>
+    </header>
+
+    <div class="banner">
+        Admissions Open for the 2025 Academic Year! Enroll Now.
+    </div>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#academics">Academics</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Inspiring Future Leaders</h1>
+        <p>Providing quality education and shaping young minds for a brighter tomorrow.</p>
+        <img src="lotus.jpg" alt="Lotus Flower">
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Sunshine High School has been a cornerstone of education for over 50 years. We strive to provide a nurturing environment where students can grow academically and personally.</p>
+    </section>
+
+    <section id="academics">
+        <h2>Academics</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Primary Education</h3>
+                <p>Building the foundation with a focus on basic skills and holistic development.</p>
+            </div>
+            <div class="card">
+                <h3>Secondary Education</h3>
+                <p>Preparing students with critical thinking skills and core subject knowledge.</p>
+            </div>
+            <div class="card">
+                <h3>Extracurricular Activities</h3>
+                <p>Encouraging creativity, teamwork, and leadership through various programs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <img src="photo1.jpg" alt="School Event 1">
+            <img src="photo2.jpg" alt="School Event 2">
+            <img src="photo3.jpg" alt="School Event 3">
+            <img src="photo4.jpg" alt="School Event 4">
+            <img src="photo5.jpg" alt="School Event 5">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@sunshinehighschool.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Education Lane, Knowledge City, Learning State</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sunshine High School. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
